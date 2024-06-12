@@ -1,0 +1,1 @@
+export const LOCAL_STORAGE = "CS550-05-18-2024";

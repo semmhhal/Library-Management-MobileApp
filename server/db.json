@@ -1,0 +1,408 @@
+{
+  "books": [
+    {
+      "id": "B002",
+      "title": "The Art of Programming II",
+      "genre": "Technology",
+      "category": "Programming",
+      "authorIDs": [
+        "A003"
+      ],
+      "publisherId": "P002"
+    },
+    {
+      "id": "B004",
+      "title": "Coding for Beginners",
+      "genre": "Technology",
+      "category": "Programming 102",
+      "authorIDs": [
+        "A002",
+        "A003"
+      ],
+      "publisherId": "P001"
+    },
+    {
+      "id": "B005",
+      "title": "Introduction to Machine Learning",
+      "genre": "Education",
+      "category": "Artificial Intelligence",
+      "authorIDs": [
+        "A002",
+        "A003"
+      ],
+      "publisherId": "P005"
+    },
+    {
+      "id": "B006",
+      "title": "Advanced JavaScript",
+      "genre": "Education",
+      "category": "Programming",
+      "authorIDs": [
+        "A004",
+        "A005"
+      ],
+      "publisherId": "P006"
+    },
+    {
+      "id": "B007",
+      "title": "Cybersecurity Essentials",
+      "genre": "Education",
+      "category": "Computer Science",
+      "authorIDs": [
+        "A002",
+        "A006"
+      ],
+      "publisherId": "P007"
+    },
+    {
+      "id": "B008",
+      "title": "Artificial Intelligence Basics",
+      "genre": "Education",
+      "category": "Artificial Intelligence",
+      "authorIDs": [
+        "A001",
+        "A001"
+      ],
+      "publisherId": "P008"
+    },
+    {
+      "id": "B009",
+      "title": "Web Development with HTML and CSS",
+      "genre": "Education",
+      "category": "Web Development",
+      "authorIDs": [
+        "A003",
+        "A003"
+      ],
+      "publisherId": "P009"
+    },
+    {
+      "id": "B010",
+      "title": "Database Management Systems II",
+      "genre": "Education",
+      "category": "Computer Science",
+      "authorIDs": [
+        "A005",
+        "A002",
+        "A003"
+      ],
+      "publisherId": "94e4"
+    },
+    {
+      "id": "3c22",
+      "title": "Edd",
+      "genre": "Dd",
+      "category": "",
+      "authorIDs": [],
+      "publisherId": "94e4"
+    }
+  ],
+  "authors": [
+    {
+      "id": "A003",
+      "name": "perry Smith",
+      "phone": "304-201-8931",
+      "email": "PerryS@gmail.com"
+    },
+    {
+      "id": "A004",
+      "name": "Abebe Wolde",
+      "phone": "309-202-9092",
+      "email": "abebew@gmail.com"
+    },
+    {
+      "id": "A005",
+      "name": "Max William",
+      "phone": "309-201-8903",
+      "email": "maxwill@gmail.com"
+    }
+  ],
+  "publishers": [
+    {
+      "id": "P001",
+      "name": "TechBooks Publishings",
+      "phone": "456-789-0123",
+      "email": "contact@techbookspub.com",
+      "address": "123 Tech St, Silicon Valley, CA"
+    },
+    {
+      "id": "P002",
+      "name": "CodeWorld Publishers ",
+      "phone": "567-890-1234",
+      "email": "info@codeworldpub.com",
+      "address": "234 Code Ave, Programmer City, TX"
+    },
+    {
+      "id": "94e4",
+      "name": "Delta World Publishers",
+      "phone": "334-2342-2342",
+      "email": "Delta@gmail.com",
+      "address": "Delta Street Dallas,TX 4323"
+    }
+  ],
+  "catalogs": [
+    {
+      "id": "C001",
+      "bookId": "B001",
+      "numberOfCopies": 10,
+      "availableCopies": 7
+    },
+    {
+      "id": "C002",
+      "bookId": "B002",
+      "numberOfCopies": 11,
+      "availableCopies": 7
+    },
+    {
+      "id": "C003",
+      "bookId": "B003",
+      "numberOfCopies": 9,
+      "availableCopies": 9
+    },
+    {
+      "id": "C003",
+      "bookId": "B003",
+      "numberOfCopies": 4,
+      "availableCopies": 4
+    },
+    {
+      "id": "C004",
+      "bookId": "B004",
+      "numberOfCopies": 2,
+      "availableCopies": 2
+    },
+    {
+      "id": "C005",
+      "bookId": "B005",
+      "numberOfCopies": 7,
+      "availableCopies": 6
+    },
+    {
+      "id": "C006",
+      "bookId": "B006",
+      "numberOfCopies": 12,
+      "availableCopies": 12
+    },
+    {
+      "id": "C007",
+      "bookId": "B007",
+      "numberOfCopies": 15,
+      "availableCopies": 7
+    },
+    {
+      "id": "C008",
+      "bookId": "B008",
+      "numberOfCopies": 3,
+      "availableCopies": 1
+    },
+    {
+      "id": "C009",
+      "bookId": "B009",
+      "numberOfCopies": 2,
+      "availableCopies": 1
+    },
+    {
+      "id": "C010",
+      "bookId": "B010",
+      "numberOfCopies": 8,
+      "availableCopies": 6
+    },
+    {
+      "id": "C011",
+      "bookId": null,
+      "numberOfCopies": 5,
+      "availableCopies": 2
+    },
+    {
+      "id": "C012",
+      "bookId": "B012",
+      "numberOfCopies": 80,
+      "availableCopies": 17
+    }
+  ],
+  "members": [
+    {
+      "id": "M001",
+      "residentID": "S1001",
+      "firstname": "Alice",
+      "lastname": "Green",
+      "address": "789 Library Ln, Education Town, MA",
+      "phone": "678-901-2345",
+      "email": "alice.green@example.com"
+    },
+    {
+      "id": "M002",
+      "residentID": "S1002",
+      "firstname": "Blice II",
+      "lastname": "Grey",
+      "address": "9847 Bent Branch Ln",
+      "phone": "678-333-5432",
+      "email": "Blice.grey@example.com"
+    },
+    {
+      "id": "M003",
+      "residentID": "S1003",
+      "firstname": "Alice",
+      "lastname": "Brown ",
+      "address": "1234 Elm Street",
+      "phone": "123-456-7891",
+      "email": "alice.brown123@example.com "
+    },
+    {
+      "id": "M004",
+      "residentID": "S1004",
+      "firstname": "John",
+      "lastname": "Doe",
+      "address": "5678 Oak Avenue",
+      "phone": "987-654-3210",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "M005",
+      "residentID": "S1005",
+      "firstname": "Emily",
+      "lastname": "White",
+      "address": "9101 Maple Drive",
+      "phone": "555-123-4567",
+      "email": "emily.white@example.com"
+    },
+    {
+      "id": "M006",
+      "residentID": "S1006",
+      "firstname": "Michael",
+      "lastname": "Smith",
+      "address": "1213 Pine Road",
+      "phone": "321-654-9870",
+      "email": "michael.smith@example.com"
+    },
+    {
+      "id": "M007",
+      "residentID": "S1007",
+      "firstname": "Sarah",
+      "lastname": "Johnson",
+      "address": "1415 Cedar Lane",
+      "phone": "654-321-0987",
+      "email": "sarah.johnson@example.com"
+    },
+    {
+      "id": "M008",
+      "residentID": "S1008",
+      "firstname": "David",
+      "lastname": "Williams",
+      "address": "1617 Birch Boulevard",
+      "phone": "789-123-4560",
+      "email": "david.williams@example.com"
+    },
+    {
+      "id": "M009",
+      "residentID": "S1009",
+      "firstname": "Sophia",
+      "lastname": "Taylor",
+      "address": "1819 Aspen Street",
+      "phone": "456-789-0123",
+      "email": "sophia.taylor@example.com"
+    },
+    {
+      "id": "M010",
+      "residentID": "S1010",
+      "firstname": "James",
+      "lastname": "Brown",
+      "address": "2021 Willow Way",
+      "phone": "789-456-1230",
+      "email": "james.brown@example.com"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "e504",
+      "bookId": "B002",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": ""
+    },
+    {
+      "id": "847f",
+      "bookId": "B002",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": "2024-05-20"
+    },
+    {
+      "id": "82aa",
+      "bookId": "B002",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": ""
+    },
+    {
+      "id": "6fcf",
+      "bookId": "B002",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": "2024-05-20"
+    },
+    {
+      "id": "9736",
+      "bookId": "B010",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": ""
+    },
+    {
+      "id": "5e88",
+      "bookId": "B010",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": "2024-05-20"
+    },
+    {
+      "id": "661d",
+      "bookId": "B010",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": ""
+    },
+    {
+      "id": "d8e6",
+      "bookId": "B010",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": "2024-05-20"
+    },
+    {
+      "id": "746e",
+      "bookId": "B010",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-21",
+      "returnedDate": ""
+    },
+    {
+      "id": "7b98",
+      "bookId": "B010",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": "2024-05-21"
+    },
+    {
+      "id": "0865",
+      "bookId": "B010",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-21",
+      "returnedDate": ""
+    },
+    {
+      "id": "15a9",
+      "bookId": "B010",
+      "memberId": "M001",
+      "borrowedDate": "2024-05-20",
+      "returnedDate": "2024-05-21"
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "name": "Peter",
+      "email": "peter@miu.edu"
+    }
+  ]
+}
